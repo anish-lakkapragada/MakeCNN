@@ -44,8 +44,9 @@ Any_name
     - dog > contains dog images
     - human > contains human images 
 
-MakeCNN's main API, AutoMake was designed to be extremely simple, 
-demo below : 
+MakeCNN's main API, AutoMake was designed to be extremely simple. 
+
+## DEMO
 
 ```python
 from mcnn import AutoMake
