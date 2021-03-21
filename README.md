@@ -17,10 +17,10 @@ Folder_name (you can choose this) :
     - class_1 > contains images
     - class_2 > contains images
     - class_3 > contains images
-  Testing 
-    class_1 > contains images
-    class_2 > contains images
-    class_3 > contains images
+ - Testing 
+    - class_1 > contains images
+    - class_2 > contains images
+    - class_3 > contains images
     
 where the "Training" and "Testing" directories are for the training and testing data. Also 
 note that MakeCNN can handle however many number of classes you want!
@@ -29,14 +29,14 @@ To make this easier to understand, if you wanted to use MakeCNN to predict betwe
 you should have a folder like this : 
 
 Any_name 
-  Training
-    cat > contains cat images
-    dog > contains dog images
-    human > contains human images
-  Testing 
-    cat > contains cat images
-    dog > contains dog images
-    human > contains human images 
+  - Training
+    - cat > contains cat images
+    - dog > contains dog images
+    - human > contains human images
+  - Testing 
+    - cat > contains cat images
+    - dog > contains dog images
+    - human > contains human images 
 
 MakeCNN's main API, AutoMake was designed to be extremely simple, 
 demo below : 
