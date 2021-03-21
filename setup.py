@@ -13,7 +13,7 @@ setup(
     name="mcnn",
     packages=['mcnn'],
     include_package_data=True,
-    version="1.0.2",
+    version="1.0.3",
     license="new BSD",
     description="MakeCNN is how we make sure truly everybody can benefit from ML.",
     author="Anish Lakkapragada",
