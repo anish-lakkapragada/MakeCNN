@@ -54,10 +54,10 @@ class AutoWork :
         
         self.num_to_class = {}
         num_classes = 0 
-        for index, dir in enumerate(os.listdir(dataset_directory + "/Training")) : 
-            if dir.upper() != ".DS_STORE" : 
+        for dir in os.listdir(dataset_directory + "/Training") :
+            if dir.upper() != ".DS_STORE" :
+                self.num_to_class[num_classes] = dir # this is to make it more readable for predictions
                 num_classes += 1 # count number of classes
-                self.num_to_class[index] = dir # this is to make it more readable for predictions
 
         self.class_mode = "binary" if num_classes == 2 else "sparse"
 
