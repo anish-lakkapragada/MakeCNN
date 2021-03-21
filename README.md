@@ -13,14 +13,14 @@ More details :
 You must have a folder of data with this exact structure for MakeCNN to work (this is pretty standard in the ML world) : 
 
 Folder_name (you can choose this) : 
- - Training
-    - class_1 > contains images
-    - class_2 > contains images
-    - class_3 > contains images
- - Testing 
-    - class_1 > contains images
-    - class_2 > contains images
-    - class_3 > contains images
+ - Training (subfolder)
+    - class_1 (subfolder) > contains images
+    - class_2 (subfolder) > contains images
+    - class_3 (subfolder) > contains images
+ - Testing (subfolder)
+    - class_1 (subfolder) > contains images
+    - class_2 (subfolder) > contains images
+    - class_3 (subfolder) > contains images
     
 where the "Training" and "Testing" directories are for the training and testing data. Also 
 note that MakeCNN can handle however many number of classes you want!
