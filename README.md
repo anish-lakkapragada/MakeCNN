@@ -54,10 +54,9 @@ aw = AutoWork(dataset_directory = "path_to_folder_containing_data")
 ```
 
 When you instantiate the automake class, you give it the data, and all
-of that is processed. To see its progress during process, you can set
-show_loop = True. To control the image size of the images in your data
+of that is processed. To control the image size of the images in your data
 when applied by the CNN model, you can change image_size from 150 to whatever else. 
-Don't worry - even if your images are not 150 * 150, they will be resized. 
+Don't worry - even if your images are not 150 x 150, they will be resized. 
 
 Then to train : 
 ```python
