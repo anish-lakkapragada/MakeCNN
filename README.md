@@ -1,4 +1,5 @@
 # MakeCNN
+![python](https://img.shields.io/pypi/pyversions/mcnn)
 
 More and more people each day want to apply machine learning and AI into their products. As ML expands beyond the traditional fields, those
 who do want to jump into the fun may find themselves confused with the technical concepts involved and amount of learning required to successfully 
