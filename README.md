@@ -8,7 +8,13 @@ The way it works is that you have a folder of image data from various classes, a
 a Convolutional Neural Network off of it, and then allows you to use it to make predictions on more data and apply it. That way 
 instead of learning what a convolutional neural network is, you can instead apply it ASAP.
 
-More details : 
+# Installation 
+To install simply make sure you are using Python3 and do : 
+``` shell
+pip install mcnn
+```
+
+## More details : 
 
 You must have a folder of data with this exact structure for MakeCNN to work (this is pretty standard in the ML world) : 
 
