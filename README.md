@@ -49,7 +49,7 @@ MakeCNN's main API, AutoMake was designed to be extremely simple.
 ## DEMO
 
 ```python
-from mcnn import AutoMake
+from mcnn.make import AutoMake
 am = AutoMake(dataset_directory = "path_to_folder_containing_data") 
 ```
 
