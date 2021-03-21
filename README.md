@@ -50,7 +50,7 @@ MakeCNN's main API, AutoWork, was designed to be extremely simple.
 
 ```python
 from mcnn.make import AutoWork
-am = AutoWork(dataset_directory = "path_to_folder_containing_data") 
+aw = AutoWork(dataset_directory = "path_to_folder_containing_data") 
 ```
 
 When you instantiate the automake class, you give it the data, and all
@@ -61,21 +61,21 @@ Don't worry - even if your images are not 150 * 150, they will be resized.
 
 Then to train : 
 ```python
-am.train(epochs = 20)
+aw.train(epochs = 20)
 ```
 
 Here we train our model for 20 epochs. Easy peasy, lemon squeezy.
 
 Then to predict on a single image : 
 ```python
-am.predict(path_to_image = "give_path_to_image_file")
+aw.predict(path_to_image = "give_path_to_image_file")
 ```
 
 and you will get your prediction. It will either be "cat", "dog", or "human"
 for our example above. You can do this for every image in a file by :
 
 ```python
-am.predict_directory(path_to_img_directory = "give_path_to_image_folders")
+aw.predict_directory(path_to_img_directory = "give_path_to_image_folders")
 ```
 
 where you will instead get a list of predictions. 
