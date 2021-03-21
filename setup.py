@@ -9,11 +9,16 @@ with open("README.md", "r") as fh:
 with open("requirements.txt") as reqs:
     requirements = reqs.read().split("\n")
 
+import sys
+
+version_name = sys.argv[1].replace("refs/tags/", "")
+del sys.argv[1]
+
 setup(
     name="mcnn",
     packages=['mcnn'],
     include_package_data=True,
-    version="1.0.4",
+    version=version_name,
     license="new BSD",
     description="MakeCNN is how we make sure everybody can benefit from ML.",
     author="Anish Lakkapragada",
