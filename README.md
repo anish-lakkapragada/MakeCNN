@@ -1,5 +1,8 @@
 # MakeCNN
 ![python](https://img.shields.io/pypi/pyversions/mcnn)
+![License](https://img.shields.io/pypi/l/mcnn?color=light)
+![issues](https://img.shields.io/github/issues/anish-lakkapragada/MakeCNN?color=red)
+![pypi](https://img.shields.io/pypi/v/mcnn?color=purple)
 
 More and more people each day want to apply machine learning and AI into their products. As ML expands beyond the traditional fields, those
 who do want to jump into the fun may find themselves confused with the technical concepts involved and amount of learning required to successfully 
