@@ -1,22 +1,19 @@
 import pathlib
 from setuptools import setup
 
-# The directory containing this file
 HERE = pathlib.Path(__file__).parent
 
-# The text of the README file
-README = (HERE / "README.md").read_text()
+with open("README.md", "r") as fh:
+    read_me_description = fh.read()
 
 with open("requirements.txt") as reqs:
     requirements = reqs.read().split("\n")
 
-# This call to setup() does all the work
 setup(
     name="mcnn",
-    packages=setuptools.find_packages(),
-    package_data={"": non_python_files},
+    packages=['mcnn'],
     include_package_data=True,
-    version="1.0.0",
+    version="1.0.1",
     license="new BSD",
     description="MakeCNN is how we make sure truly everybody can benefit from ML.",
     author="Anish Lakkapragada",
