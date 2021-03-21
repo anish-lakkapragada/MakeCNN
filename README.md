@@ -44,13 +44,13 @@ Any_name
     - dog > contains dog images
     - human > contains human images 
 
-MakeCNN's main API, AutoMake was designed to be extremely simple. 
+MakeCNN's main API, AutoWork, was designed to be extremely simple. 
 
 ## DEMO
 
 ```python
-from mcnn.make import AutoMake
-am = AutoMake(dataset_directory = "path_to_folder_containing_data") 
+from mcnn.make import AutoWork
+am = AutoWork(dataset_directory = "path_to_folder_containing_data") 
 ```
 
 When you instantiate the automake class, you give it the data, and all
